@@ -1,0 +1,72 @@
+{
+    "GLXY": {
+        "bridge": "0x08FE8A0fEA8210861fc4079f5CC5AD586BD4912C",
+        "chainId": 36,
+        "confirmations": 1,
+        "blocktime": 1000,
+        "rpc": "https://rpc.galaxychain.live",
+        "explorer": "https://galaxyscan.io/",
+        "erc20": "GRC20",
+        "tokens": {
+            "GLXY": {
+                "decimals": 18
+            },
+            "ETH": {
+                "contract": "0x1023c2621ac815036aD2065659955d8077112459",
+                "decimals": 18,
+                "pegging": true
+            },
+            "BNB": {
+                "contract": "0xa26936C3A14fc082483Af337Df5aC5853fE4B8EC",
+                "decimals": 18,
+                "pegging": true
+            }
+        }
+    },
+    "ETH": {
+        "bridge": "0x08FE8A0fEA8210861fc4079f5CC5AD586BD4912C",
+        "chainId": 1,
+        "confirmations": 12,
+        "blocktime": 15000,
+        "rpc": "https://mainnet.infura.io/v3/566c54809b2d44f7b922a5fb4bf4b3a2",
+        "explorer": "https://etherscan.io/",
+        "erc20": "ERC20",
+        "tokens": {
+            "ETH": {
+                "decimals": 18
+            },
+            "GLXY": {
+                "contract": "0x1023c2621ac815036aD2065659955d8077112459",
+                "decimals": 18,
+                "pegging": true
+            },
+            "BNB": {
+                "decimals": 18,
+                "contract": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+            }
+        }
+    },
+    "BNB": {
+        "bridge": "0x08FE8A0fEA8210861fc4079f5CC5AD586BD4912C",
+        "chainId": 56,
+        "confirmations": 12,
+        "blocktime": 15000,
+        "rpc": "https://bsc-dataseed.binance.org/",
+        "explorer": "https://bscscan.com/",
+        "erc20": "BEP20",
+        "tokens": {
+            "BNB": {
+                "decimals": 18
+            },
+            "ETH": {
+                "decimals": 18,
+                "contract": "0x250632378E573c6Be1AC2f97Fcdf00515d0Aa91B"
+            },
+            "GLXY": {
+                "contract": "0x1023c2621ac815036aD2065659955d8077112459",
+                "decimals": 18,
+                "pegging": true
+            }
+        }
+    }
+}

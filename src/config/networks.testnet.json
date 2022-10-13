@@ -1,0 +1,72 @@
+{
+    "GLXY": {
+        "bridge": "0xE6cD5de8a6c41A25664aCdcA8675220B708Bc531",
+        "chainId": 36,
+        "confirmations": 1,
+        "blocktime": 1000,
+        "rpc": "https://rpc.galaxychain.live",
+        "explorer": "https://galaxyscan.io/",
+        "erc20": "GRC20",
+        "tokens": {
+            "GLXY": {
+                "decimals": 18
+            },
+            "ETH": {
+                "contract": "0x550691ab40853FA5F8f64568bebd2b68a4105367",
+                "decimals": 18,
+                "pegging": true
+            },
+            "BNB": {
+                "contract": "0x8ef0708340815F720bA5D8d9a7a858E706BF29DB",
+                "decimals": 18,
+                "pegging": true
+            }
+        }
+    },
+    "ETH": {
+        "bridge": "0xFEA0db54a4eA87B8F54cb06ca064D2676cC2686f",
+        "chainId": 4,
+        "confirmations": 12,
+        "blocktime": 15000,
+        "rpc": "https://rinkeby.infura.io/v3/580d6de4d2694cbdbee111d2f553dbcc",
+        "explorer": "https://rinkeby.etherscan.io/",
+        "erc20": "ERC20",
+        "tokens": {
+            "ETH": {
+                "decimals": 18
+            },
+            "GLXY": {
+                "contract": "0x8149e1A508cEa1928a0AC28A4E349942c1324A0b",
+                "decimals": 18,
+                "pegging": true
+            },
+            "BNB": {
+                "contract": "0x5D91D3A0D5691304255e559e9df36FC4d6dF23A0",
+                "decimals": 18
+            }
+        }
+    },
+    "BNB": {
+        "bridge": "0xa8159Ac41C82e335A42D1BBb8a784894E252545B",
+        "chainId": 97,
+        "confirmations": 12,
+        "blocktime": 15000,
+        "rpc": "https://data-seed-prebsc-1-s1.binance.org:8545/",
+        "explorer": "https://testnet.bscscan.com/",
+        "erc20": "BEP20",
+        "tokens": {
+            "BNB": {
+                "decimals": 18
+            },
+            "ETH": {
+                "contract": "0x51f9239709ebbF13dB8ffF874b4dC9Ce055Ce463",
+                "decimals": 18
+            },
+            "GLXY": {
+                "contract": "0x5D91D3A0D5691304255e559e9df36FC4d6dF23A0",
+                "decimals": 18,
+                "pegging": true
+            }
+        }
+    }
+}

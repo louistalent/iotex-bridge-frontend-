@@ -1,0 +1,17 @@
+{
+    "lang" : "中",
+    "chain": "Galaxy链",
+    "bridge": "Galaxy桥",
+    "description": "更快，最安全交易Galaxy链",
+    "wallet.connect": "钱包连接",
+
+    "chain.glxy": "Galaxy链",
+    "chain.eth": "以太坊链",
+    "chain.bnb": "币安智能链",
+    "chain.trx": "波杨链",
+    "chain.ht": "HECO链",
+
+    "token.native": "Native Token",
+
+    "end":""
+}
